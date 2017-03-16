@@ -1,3 +1,21 @@
+# Avoid data files
+data/
+img_align_celeba/
+
+#Ignore saved weights
+*.h5
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+
+# Notebook Checkpoints
+.ipynb_checkpoints/
+
 *.sublime-project
 *.sublime-workspace
 concurrency/flags/img/*.gif
